@@ -1,0 +1,116 @@
+.app_footer{
+
+}
+.footer {
+	color: #999999;
+    background-color: #2e3234;
+    font-family: 'Proxima Nova','Arial','Helvetica Neue',sans-serif;
+}
+.footer_container {
+	max-width: 860px;
+	margin: 0 auto;
+}
+.footer_content {
+	padding-top: 26px;
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.footer_col{
+	width: 160px;
+	max-width: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 0 20px;
+    text-align: left;
+}
+.footer_col + .footer_col {
+	margin-left: 25px;
+}
+.deflist_group + .deflist_group {
+	margin-top: 26px;
+}
+.deflist_title {
+	margin-bottom: 4px;
+    text-align: left;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.deflist_list {
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.deflist_item {
+	padding: 0;
+    font-size: 16px;
+    line-height: 19px;
+}
+.deflist_link {
+	display: inline-block;
+    padding: 4px 0;
+    -o-transition: color .15s ease-out;
+    transition: color .15s ease-out;
+    color: #fff;
+}
+.deflist_link:hover {
+	color: rgba(255,255,255,0.5);
+}
+.copyright {
+	display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 15px 0 18px;
+    border-top: 1px solid #505050;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    text-align: left;
+}
+.copyright_block{
+    font-size: 11px;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    -webkit-flex-basis: 20%;
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.copyright_block:last-child{
+	text-align: right;
+}
+.copyright_block a {
+	color:#fff;
+}
+.copyright_block a:hover {
+	color: rgba(255,255,255,0.5);
+}
+

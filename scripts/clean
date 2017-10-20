@@ -1,0 +1,5 @@
+#!/bin/sh
+
+rm -rf www/public/*
+rm -rf build/*
+rm -rf www/src/reports/*
